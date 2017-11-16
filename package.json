@@ -1,0 +1,26 @@
+{
+  "name": "@ramouton/lambda-r53-ddns",
+  "description": "AWS Lambda Function Act as DDNS Update for Route53",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Raymond A. Mouton <raymond_mouton@icloud.com>",
+  "contributors": [
+    "Raymond A. Mouton <raymond_mouton@icloud.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramouton/lambda-r53-ddns.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ramouton/lambda-r53-ddns/issues"
+  },
+  "homepage": "https://github.com/ramouton/lambda-r53-ddns#readme",
+  "license": "NONE",
+  "keywords": [],
+  "dependencies": {
+    "aws-sdk": "^2.72.0"
+  }
+}
