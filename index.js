@@ -34,10 +34,10 @@ exports.handler = (event, context, callback) => {
 
 
     if (event.httpMethod == 'POST') {
-      console.log(event);
+//      console.log(event);
 
-      if ('system-user' in event.headers) {
-        if (event.headers['system-user'] != process.env.AUTHORIZED_USER) {
+      if ('System-User' in event.headers) {
+        if (event.headers['System-User'] != process.env.AUTHORIZED_USER) {
           request_response = {
             statusCode: 401,
             headers: {'Content-type':'application/json'},
